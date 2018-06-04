@@ -2,66 +2,63 @@
     padding: 0px;
     margin: 0px;
 }
-
 header, nav, aside, article, section, footer, main, button {
     display: block;
 }
-
 button {
     border: none;
 }
-
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 0px;
+}
 .clear {
     clear: both;
 }
-
 .needFont, .sidenav {
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+#wrapper{
+    width: 96%;
+    margin: 0px auto;
+}
 @media only screen and (max-width: 480px) {
-
     .text-center {
         position: relative;
         top: 100px;
     }
-
     #submitButton {
         width: 200px;
         position: relative;
         left: 130px;
     }
-
-    #wrapper {
-        width: 100%;
-        margin: 0px auto;
-    }
-
     header {
         height: 101px;
     }
-
     .header {
         background-repeat: no-repeat;
         display: block;
         position: relative;
         top: 34px;
     }
-
     #menuContainer {
         float: left;
         left: 13px;
         display: inline-block;
         cursor: pointer;
     }
-
     .menuButton {
         width: 35px;
         height: 5px;
         background-color: #000000;
         margin: 6px 0;
     }
-
     .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
@@ -69,7 +66,6 @@ button {
         margin: 6px 0;
         transition: 0.4s;
     }
-
     #backArrow {
         float: left;
         position: relative;
@@ -82,7 +78,6 @@ button {
         background-repeat: no-repeat;
         display: none;
     }
-
     /* The side navigation menu */
     .sidenav {
         height: 100%; /* 100% Full-height */
@@ -96,13 +91,11 @@ button {
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
-
     #menuH1 {
         position: relative;
         left: 13px;
         font-size: 30px;
     }
-
     /* The navigation menu links */
     .sidenav a {
         padding: 8px 8px 8px 32px;
@@ -113,12 +106,10 @@ button {
         display: block;
         transition: 0.3s;
     }
-
     /* When you mouse over the navigation links, change their color */
     .sidenav a:hover {
         color: #f1f1f1;
     }
-
     #nightModeButton {
         background-image: url(../images/night_mode.png);
         width: 30px;
@@ -128,19 +119,16 @@ button {
         left: 29px;
         cursor: pointer;
     }
-
     #nightModeButton:hover, #menuContainer:hover {
         opacity: 0.75;
     }
-
     #logo {
         background-image: url(../images/Logo.png);
         height: 70px;
-        width: 135px;
+        width: 140px;
         float: left;
         left: 118px;
     }
-
     #userImage {
         background-image: url(../images/Raheli.png);
         height: 40px;
@@ -148,7 +136,6 @@ button {
         float: right;
         right: 16px;
     }
-
     #userName {
         color: #8c8c8c;
         font-size: 13px;
@@ -156,14 +143,12 @@ button {
         top: 78px;
         right: 19px;
     }
-
     #helloMessage {
         color: #8c8c8c;
         position: relative;
         top: 85px;
         left: 95px;
     }
-
     .plusButtonsBox {
         height: 124px;
         width: 224px;
@@ -176,15 +161,12 @@ button {
         border-width: 1px;
         border-radius: 10px;
     }
-
     .rightBoxes {
         border-right: none;
     }
-
     .leftBoxes {
         border-left: none;
     }
-
     .plusButton {
         border-radius: 100%;
         height: 60px;
@@ -199,5 +181,4 @@ button {
         color: #ffffff;
         opacity: 0.5;
     }
-
 }
