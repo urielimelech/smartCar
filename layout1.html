@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>layout1 - Idan Asulin</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="includes/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id ="wrapper">
+            <header id="header1">
+                <div id="menuContainer" class="header" onclick="openNav()">
+                    <div class="menuButton bar1"></div>
+                    <div class="menuButton bar2"></div>
+                    <div class="menuButton bar3"></div>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <h1 id="menuH1" class="needFont">Menu</h1>
+                    <a href="#" class="menuLink needFont"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;Settings</a>
+                    <a href="#" class="menuLink needFont">
+                        <i class="fa fa-heart" aria-hidden="true"></i>&nbsp;&nbsp;Favorites</a>
+                    <a href="#" class="menuLink needFont"><i class="fa fa-car" aria-hidden="true"></i>&nbsp;&nbsp;Cars</a>
+                    <a href="#" class="menuLink needFont"><i class="fa fa-users" aria-hidden="true"></i>
+                        &nbsp;&nbsp;Group admins</a>
+                    <a href="#" class="menuLink needFont"><i class="fa fa-share-alt" aria-hidden="true"></i>&nbsp;&nbsp;Tell a friend</a>
+                </div>
+                <button id ="nightModeButton" class="header"></button>
+                <a id ="logo" class="header" href ="#"></a>
+                <a id ="userImage" class="header" href="#"></a>
+                <p id="userName" class="needFont">Raheli</p>
+                <div class="clear"></div>
+            </header>
+            <main>
+                <p id="helloMessage" class="needFont">Hello Raheli, No registered vehicles found</p>
+                <section class="plusButtonsBox leftBoxes"><button class="plusButton needFont btn-success">+</button></section>
+                <section class="plusButtonsBox rightBoxes"><button class="plusButton needFont disable">+</button></section>
+                <section class="plusButtonsBox leftBoxes"><button class="plusButton needFont disable" >+</button></section>
+                <section class="plusButtonsBox rightBoxes"><button class="plusButton needFont disable" >+</button></section>
+            </main>
+        </div>
+        <script src="includes/script.js"></script>
+    </body>
+</html>

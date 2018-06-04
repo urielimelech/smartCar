@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form - Idan Asulin</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="includes/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header id="header1">
+                <div id="menuContainer" class="header" onclick="openNav()">
+                    <div class="menuButton bar1"></div>
+                    <div class="menuButton bar2"></div>
+                    <div class="menuButton bar3"></div>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <h1 id="menuH1" class="needFont">Menu</h1>
+                    <a href="#" class="needFont"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;Settings</a>
+                    <a href="#" class="needFont">
+                        <i class="fa fa-heart" aria-hidden="true"></i>&nbsp;&nbsp;Favorites</a>
+                    <a href="#" class="needFont"><i class="fa fa-car" aria-hidden="true"></i>&nbsp;&nbsp;Cars</a>
+                    <a href="#" class="needFont"><i class="fa fa-users" aria-hidden="true"></i>
+                        &nbsp;&nbsp;Group admins</a>
+                    <a href="#" class="needFont"><i class="fa fa-share-alt" aria-hidden="true"></i>&nbsp;&nbsp;Tell a friend</a>
+                </div>
+                <button id ="nightModeButton" class="header"></button>
+                <a id ="logo" class="header" href ="#"></a>
+                <div class="clear"></div>
+            </header>
+            <main class="text-center">
+                <form class="form-signin" action="layout1.html">
+                    <h1 class="h3 mb-3 font-weight-normal needFont">Please sign in</h1>
+                    <label for="inputEmail" class="needFont sr-only">Email address</label>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                    <label for="inputPassword" class="needFont sr-only">Password</label>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                    <div class="checkbox mb-3">
+                        <label class="needFont">
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                    </div>
+                    <button class="btn needFont btn-lg btn-primary btn-block" id="submitButton" type="submit">Sign in</button>
+                    <p class="mt-5 needFont mb-3 text-muted">© 2017-2018</p>
+                </form>
+            </main>
+        </div>
+        <script src="includes/script.js"></script>
+    </body>
+</html>
