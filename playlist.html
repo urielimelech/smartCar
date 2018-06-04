@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="includes/style.css">
+        <title>Playlist</title>
+    </head>
+    <body id="wrapper">
+        <header id="header1">
+            <div id="menuContainer" class="header" onclick="openNav()">
+                <div class="menuButton bar1"></div>
+                <div class="menuButton bar2"></div>
+                <div class="menuButton bar3"></div>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <h1 id="menuH1" class="needFont">Menu</h1>
+                <a href="#" class="menuLink needFont"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;Settings</a>
+                <a href="#" class="menuLink needFont">
+                    <i class="fa fa-heart" aria-hidden="true"></i>&nbsp;&nbsp;Favorites</a>
+                <a href="#" class="menuLink needFont"><i class="fa fa-car" aria-hidden="true"></i>&nbsp;&nbsp;Cars</a>
+                <a href="#" class="menuLink needFont"><i class="fa fa-users" aria-hidden="true"></i>
+                    &nbsp;&nbsp;Group admins</a>
+                <a href="#" class="menuLink needFont"><i class="fa fa-share-alt" aria-hidden="true"></i>&nbsp;&nbsp;Tell a friend</a>
+            </div>
+            <button id ="nightModeButton" class="header"></button>
+            <a id ="logo" class="header" href ="#"></a>
+            <a id ="userImage" class="header" href="#"></a>
+            <p id="userName" class="needFont">Raheli</p>
+            <div class="clear"></div>
+        </header>
+        <nav id="systemsNavBar" class="navbar-expand-lg navbar-light bg-light"> <!-- Systems Nav Bar -->
+            <ul class="mr-auto">
+                <li>
+                    <a class="selected">Music</a>
+                </li>
+                <li>
+                    <a>Calender</a>
+                </li>
+                <li >
+                    <a>Driver's Seat</a>
+                </li>
+                <li>
+                    <a>Waze</a>
+                </li>
+                <li>
+                    <a>A/C</a>
+                </li>
+            </ul>
+        </nav>
+        <form id="search" class="form-inline">
+            <section> 
+                <input class="searchBar mr-sm-1" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+            </section>
+        </form>
+        <ul>
+            <li class="musicList">
+                <section>
+                    <!-- image of music -->
+                    <div class="albumCover"><img src="images/alesso album cover.png" alt="album image"></div>
+                </section>
+                <section>
+                    <!-- name of song -->
+                    <p>Falling</p>
+                    <p>Alesso</p>
+                </section>
+                <section>
+                    <!-- delete icon -->
+                    <i class="far fa-trash-alt"></i>
+                </section>
+                <section>
+                    <!-- creator name -->
+                    <p>Racheli</p>
+                </section>
+                <section>
+                    <!-- song elapsed time -->
+                    <p>3:45</p>
+                </section>
+            </li>
+            <li class="musicList">
+                <section>
+                    <!-- image of music -->
+                    <div class="albumCover"><img src="images/avicii album cover.png" alt="album image"></div>
+                </section>
+                <section>
+                    <!-- name of song -->
+                    <p>Falling</p>
+                    <p>Alesso</p>
+                </section>
+                <section>
+                    <!-- delete icon -->
+                    <i class="far fa-trash-alt"></i>
+                </section>
+                <section>
+                    <!-- creator name -->
+                    <p>Racheli</p>
+                </section>
+                <section>
+                    <!-- song elapsed time -->
+                    <p>3:45</p>
+                </section>
+            </li>
+            <li class="musicList">
+                <section>
+                    <!-- image of music -->
+                    <div class="albumCover"><img src="images/alesso album cover.png" alt="album image"></div>
+                </section>
+                <section>
+                    <!-- name of song -->
+                    <p>Falling</p>
+                    <p>Alesso</p>
+                </section>
+                <section>
+                    <!-- delete icon -->
+                    <i class="far fa-trash-alt"></i>
+                </section>
+                <section>
+                    <!-- creator name -->
+                    <p>Racheli</p>
+                </section>
+                <section>
+                    <!-- song elapsed time -->
+                    <p>3:45</p>
+                </section>
+            </li>
+        </ul>
+        
+    </body>
+</html>
